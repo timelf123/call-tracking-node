@@ -4,7 +4,9 @@
   "description": "Call tracking using Twilio, TwiML and Express.js",
   "main": "index.js",
   "scripts": {
-    "test": "export NODE_ENV=test && mocha test"
+    "test": "export NODE_ENV=test && mocha test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,7 +41,8 @@
     "q": "^1.4.1",
     "sanitize-html": "^1.10.0",
     "twilio": "^3.0.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "chai": "^2.1.0",
@@ -51,5 +54,6 @@
   },
   "engines": {
     "node": ">=4.1.0 <5.5.0"
-  }
+  },
+  "snyk": true
 }
