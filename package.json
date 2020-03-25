@@ -34,7 +34,7 @@
     "express-validator": "^5.0.0",
     "http-auth": "^2.2.5",
     "jade": "^1.9.2",
-    "mongoose": "^4.1.5",
+    "mongoose": "^5.3.9",
     "morgan": "^1.5.1",
     "q": "^1.4.1",
     "sanitize-html": "^1.10.0",
